@@ -1,0 +1,75 @@
+.top-right{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: end;
+    gap: 8rem;
+    align-items: center;
+}
+.appointment a{
+    margin-left: 1rem;
+    color: #2248A9;
+}
+.appointment{
+    display: flex;
+    align-items: center;
+}
+.person{
+    display: flex;
+    gap: 0.4rem;
+}
+.person img{
+    height: 2rem;
+}
+.bell{
+    width: 34px;
+    height: 33px;
+}
+.card-appoint{
+    display: flex;
+    gap: 23rem;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2rem;
+    width: 120%;
+    margin-top: 2rem;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  .Appointments{
+    display: block;
+    width: 50%;
+    margin: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .image-desc{
+    display: flex;
+    align-items: center;
+  }
+  .info{
+    margin-left: 2rem;
+  }
+  .buttons{
+    display: flex;
+    /* justify-content: flex-end; */
+    gap: 2rem;
+  }
+
+  .red{
+    background-color: #FF3E3E;
+    color: white;
+    width: 5rem;
+    border-radius: 5px;
+  }
+  .yellow{
+    background-color: #FFC93E;
+    color: white;
+    border-radius: 5px;
+    padding: 0.3rem;
+    width: 7rem;
+  }
